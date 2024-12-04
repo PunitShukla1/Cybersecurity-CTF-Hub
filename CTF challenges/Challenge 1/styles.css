@@ -1,0 +1,69 @@
+body {
+  background-color: #0d1117;
+  color: #39ff14;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+  border: 2px solid #39ff14;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #39ff14;
+  background-color: #161b22;
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.morse-code {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+#user-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #39ff14;
+  border-radius: 4px;
+  background-color: #0d1117;
+  color: #39ff14;
+  font-size: 1em;
+}
+
+#submit-btn {
+  padding: 10px 20px;
+  border: 2px solid #39ff14;
+  border-radius: 4px;
+  background-color: #161b22;
+  color: #39ff14;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#submit-btn:hover {
+  background-color: #39ff14;
+  color: #0d1117;
+}
+
+.feedback {
+  margin-top: 15px;
+  font-size: 1.2em;
+}
+
+.attempts {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #ff6347;
+}

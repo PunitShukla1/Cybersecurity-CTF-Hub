@@ -1,0 +1,31 @@
+body {
+    background-color: #1d1f21;
+    color: #c5c8c6;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    color: #81a2be;
+}
+
+.flag-container {
+    text-align: center;
+}
+
+.flag-container h1 {
+    color: #b5bd68;
+}
+
+.flag-container p {
+    font-size: 1.2rem;
+    color: #de935f;
+}
