@@ -1,62 +1,95 @@
-# 💻 **Cybersecurity CTF Hub** 💻
+## 💻 Cybersecurity CTF Hub 💻
 
-Welcome to the **Cybersecurity CTF Hub**! 🚀<br>
-A collection of **Capture the Flag (CTF)** challenges designed to test your cybersecurity skills. Perfect for aspiring professionals, this project will help you sharpen your knowledge in web security, cryptography, and more.
+Welcome to the **Cybersecurity CTF Hub!** 🚀  
+A collection of **Capture the Flag (CTF)** challenges designed to test your **cybersecurity skills**. Perfect for **aspiring professionals**, this project will help you sharpen your knowledge in **web security, cryptography, and more**.
 
 ---
 
-## 🚀 **Get Started**
+## 🚀 Get Started
 
-### **1. Clone the Repository**
-
-```bash
+### 1. Clone the Repository
+```sh
 git clone https://github.com/PunitShukla1/Cybersecurity-CTF-Hub.git
-2. Open Locally
-Navigate to the project folder and open index.html in your browser:<br>
+```
 
-macOS: open index.html<br>
-Windows: start index.html<br>
-Linux: xdg-open index.html<br>
-🧩 Challenges Overview
-🕵️‍♂️ Signal Breakdown<br>
-Crack encoded signals to reveal hidden messages.<br>
+### 2. Open Locally
+Navigate to the project folder and open `index.html` in your browser:
+- **macOS**: `open index.html`
+- **Windows**: `start index.html`
+- **Linux**: `xdg-open index.html`
 
-💬 Encoded Whispers<br>
-Decode web traffic to uncover secret whispers.<br>
+---
 
-🛡️ Gatekeeper's Test<br>
-Bypass login forms with injection attacks.<br>
+## 🧩 Challenges Overview
 
-💣 Reflections of Malice<br>
-Exploit reflective XSS vulnerabilities.<br>
+### 🕵️‍♂️ Signal Breakdown  
+Crack encoded signals to reveal hidden messages.
 
-💻 Injection Point<br>
-Test your SQL injection skills.<br>
+### 💬 Encoded Whispers  
+Decode web traffic to uncover secret whispers.
 
-🔒 Hash Hunt<br>
-Find and crack hidden hashes.<br>
+### 🛡️ Gatekeeper's Test  
+Bypass login forms with injection attacks.
 
-🚶‍♂️ Hidden Pathways<br>
-Uncover secret paths buried in the site.<br>
+### 💣 Reflections of Malice  
+Exploit reflective **XSS** vulnerabilities.
 
-🛠 How to Contribute
-Fork the Repo: Click "Fork" at the top of the page.<br>
-Clone Your Fork: Copy your fork to your local machine.<br>
-Add Challenges: Improve or add new challenges.<br>
-Submit Pull Request: Share your changes with us.<br>
-💡 Learning Resources
-🌐 OWASP Web Security Testing Guide<br>
-🎓 Hack The Box Academy<br>
-📞 Contact
-For inquiries or suggestions, reach out to:<br>
+### 💻 Injection Point  
+Test your **SQL injection** skills.
 
-Email: punitshukla1@gmail.com<br>
-Portfolio: Punit Shukla Portfolio<br>
-📝 License
-This project is licensed under the MIT License. See LICENSE for more details.<br>
+### 🔒 Hash Hunt  
+Find and crack **hidden hashes**.
 
-⭐ Enjoy Hacking!
-Explore, learn, and sharpen your skills with Cybersecurity CTF Hub. Stay curious and keep pushing your limits! 💡
+### 🚶‍♂️ Hidden Pathways  
+Uncover secret paths buried in the site.
 
-csharp
-Copy code
+### 🛠️ **Dockerized OWASP Top 10 Challenge** (NEW!)  
+- **Download the `tar` file** containing the challenge.
+- Use **Docker** to run the challenge on your **localhost**.
+- This challenge includes **multiple vulnerabilities** covering all **OWASP Top 10** security risks.
+- Get hands-on experience with **real-world security flaws** and learn how to **exploit & mitigate** them.
+
+**How to Run?**
+```sh
+docker load -i owasp_top10_challenge.tar
+docker run -p 8080:80 owasp_top10_challenge
+```
+Open your browser and navigate to **http://localhost:8080** to start the challenge!
+
+---
+
+## 🛠️ How to Contribute
+
+1. **Fork the Repo**: Click "Fork" at the top of the page.
+2. **Clone Your Fork**: Copy your fork to your local machine.
+3. **Add Challenges**: Improve or add new challenges.
+4. **Submit Pull Request**: Share your changes with us.
+
+---
+
+## 💡 Learning Resources
+
+- 🌐 **[OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)**  
+- 🎓 **[Hack The Box Academy](https://academy.hackthebox.com/)**  
+
+---
+
+## 📞 Contact
+
+For inquiries or suggestions, reach out to:
+
+- **Email**: punitshukla1@gmail.com  
+- **Portfolio**: [Punit Shukla Portfolio](https://punitshukla1.github.io/PunitShuklaPortfolio/)  
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for more details.
+
+---
+
+## ⭐ Enjoy Hacking!
+
+Explore, learn, and sharpen your skills with **Cybersecurity CTF Hub**. Stay curious and keep pushing your limits! 💡
+
