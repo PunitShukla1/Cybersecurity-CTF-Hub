@@ -51,8 +51,8 @@ Uncover secret paths buried in the site.
 
 **How to Run?**
 ```sh
-docker load -i owasp_top10_challenge.tar
-docker run -p 8080:80 owasp_top10_challenge
+docker compose up <docker.yml file>
+
 ```
 Open your browser and navigate to **http://localhost:8080** to start the challenge!
 
@@ -78,7 +78,7 @@ Open your browser and navigate to **http://localhost:8080** to start the challen
 
 For inquiries or suggestions, reach out to:
 
-- **Email**: punitshukla1@gmail.com  
+- **Email**: shuklapunit1024@gmail.com  
 - **Portfolio**: [Punit Shukla Portfolio](https://punitshukla1.github.io/PunitShuklaPortfolio/)  
 
 ---
